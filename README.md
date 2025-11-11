@@ -1,0 +1,59 @@
+# CCWDiff
+
+## Method
+
+# Usage
+## Dependencies
+- Linux: Ubuntu 20.04
+
+- Python: Recommend to use Anaconda
+
+- Anaconda:
+
+        1) Create an Anaconda virtual environmentconda: create --name my_env python=3.8 --yes;
+        2) Activate the virtual environment: source activate my_env
+- PyTorch: 
+
+        pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117        
+- Packages:
+
+        pip install -r requirements.txt
+
+## Datasets
+- The datasets used include  LSUI, UIEB, and U45.
+- LSUI (https://pan.baidu.com/s/1BUTwL55wI2h56LlB9Lk7Yw?pwd=lsui)
+- UIEB (https://pan.baidu.com/s/1gKx1LqgzBNiesAsbtEbTbg?pwd=uieb)
+- U45  (https://pan.baidu.com/s/1DpPT2ys3VT9s4bK3Md4SsA?pwd=57ou )
+## Get Started
+#### Pretrained models
+- Models are available in ```'./ckpt/'```
+
+- The download link for the Pretrained models is: 
+
+  [ckpt]: https://pan.baidu.com/s/1zjygPLos2ZsTGquSV7CGDw?pwd=57ou
+
+  
+
+#### Test
+- Run this command to execute
+
+    ```python
+    python evaluate.py
+    ```
+#### Train
+- Run this command to execute
+
+    ```python
+    python train.py 
+    ```
+
+# Results
+
+```
+./results/
+```
+
+
+
+# Citation
+If our work is useful for your research, please cite our work
